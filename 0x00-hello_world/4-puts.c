@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *C is fun
+ *main entry point
+ *return : 0 (successful)
  */
 int main(void)
 {
