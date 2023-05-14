@@ -3,9 +3,8 @@
 	#include <ctype.h>
 	#include <string.h>
 	/**
-	 * check_num  -  checks string there are digit
+	 * check_num - Checks string that are digit
 	 * @str: array str
-	 *
 	 * Return: Always 0 (Success)
 	 */
 	int check_num(char *str)
@@ -30,27 +29,21 @@
 		return (1);
 	}
 
-
 	/**
-	 * main - prints the name of the program
+	 * main - Prints name of program
 	 * @argc: Count arguments
 	 * @argv: Arguments
-	 *
 	 * Return: Always 0 (Success)
 	 */
 
-
 	int main(int argc, char *argv[])
 
-
 	{
-
 
 		/*Declaring variables*/
 		int count;
 		int str_to_int;
 		int sum = 0;
-
 
 		count = 1;
 		while (count < argc) /*Goes through the whole array*/
@@ -70,7 +63,6 @@
 				printf("Error\n");
 				return (1);
 			}
-
 
 			count++;
 		}
