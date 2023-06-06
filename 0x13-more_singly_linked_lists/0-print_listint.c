@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint - To print all the elements of a linked list
@@ -12,7 +13,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h)
 	{
-		putchar("%d\n", h->n);
+		print("%d\n", h->n);
 		elements++;
 		h = h->next;
 	}
